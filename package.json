@@ -1,0 +1,35 @@
+{
+  "name": "hydra-authentication",
+  "author": "lobos841@gmail.com",
+  "version": "0.1.0",
+  "description": "authentication tools",
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --compilers js:babel/register"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lobos/authentication.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lobos/authentication/issues"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
