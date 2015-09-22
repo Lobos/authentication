@@ -6,7 +6,7 @@ let TOKEN = null
 
 function toArray (key) {
   return key.toString().split('').map(k => {
-    return k.charCodeAt()
+    return parseInt(k)
   })
 }
 
